@@ -1,0 +1,13 @@
+assemble:
+    - from: build/vite
+      into: static
+vite-react-sample:
+    friendlyURLMapping: vite-react-sample
+    htmlElementName: vite-react-sample
+    instanceable: false
+    name: Vite React Sample
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - "*.js"
+    useESM: true
